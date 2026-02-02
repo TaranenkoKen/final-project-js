@@ -1,23 +1,28 @@
-<header class="header">
-  <div class="container">
-    <a href="./index.html" aria-label="Your Energy">
-      <svg class="logo-svg" width="132" height="14" aria-hidden="true">
-        <use href="#logo"></use>
+<section class="mobile-menu" aria-label="Menu">
+  <div class="mobile-menu-content">
+    <button
+      type="button"
+      class="mobile-close-btn"
+      aria-label="Close menu"
+      id="mobile-close-btn"
+    >
+      <svg class="close-icon" width="32" height="32" aria-hidden="true">
+        <use href="#icon-close"></use>
       </svg>
-    </a>
+    </button>
 
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home</a>
+    <nav aria-label="Main">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a href="./index.html" class="mobile-nav-link">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./favorites.html">Favorites</a>
+        <li class="mobile-nav-item">
+          <a href="./favorites.html" class="mobile-nav-link">Favorites</a>
         </li>
       </ul>
     </nav>
 
-    <ul>
+    <ul class="mobile-socials footer-socials" aria-label="Social media links">
       <li>
         <a
           href="https://www.facebook.com/goITclub/"
@@ -58,11 +63,5 @@
         </a>
       </li>
     </ul>
-
-    <button type="button" class="burger-btn" aria-label="Menu">
-      <svg class="burger-icon" width="32" height="32" aria-hidden="true">
-        <use href="#icon-burger"></use>
-      </svg>
-    </button>
   </div>
-</header>
+</section>
