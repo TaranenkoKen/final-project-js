@@ -1,16 +1,16 @@
-<li class="workout-card {{cardClass}}" data-id="{{id}}">
-  <div class="workout-card-header">
-    <div class="workout-card-left">
-      <span class="workout-workout-badge">WORKOUT</span>
+<li class="exercise-card {{cardClass}}" data-id="{{id}}">
+  <div class="exercise-card-header">
+    <div class="exercise-card-left">
+      <span class="exercise-workout-badge">WORKOUT</span>
       <span
-        class="workout-rating"
+        class="exercise-rating"
         aria-label="Rating: {{ratingFormatted}} out of 5"
       >
         {{ratingFormatted}}
         <svg
           width="18"
           height="18"
-          class="workout-rating-star"
+          class="exercise-rating-star"
           aria-hidden="true"
         >
           <use href="#icon-star"></use>
@@ -28,7 +28,7 @@
       </button>
     </div>
     <button
-      class="workout-start-btn"
+      class="exercise-start-btn"
       data-id="{{id}}"
       aria-label="Start exercise {{name}}"
     >
@@ -39,16 +39,16 @@
     </button>
   </div>
 
-  <div class="workout-card-body">
-    <span class="workout-icon">
+  <div class="exercise-card-body">
+    <span class="exercise-icon">
       <svg width="16px" height="16px" aria-hidden="true">
         <use href="#icon-quote"></use>
       </svg>
     </span>
-    <h3 class="workout-card-title">{{name}}</h3>
+    <h3 class="exercise-card-title">{{name}}</h3>
   </div>
 
-  <ul class="workout-card-meta">
+  <ul class="exercise-card-meta">
     <li class="meta-item">
       <span class="meta-label">Burned calories:</span>
       <span class="meta-value">{{burnedCalories}} / {{time}} min</span>

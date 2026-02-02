@@ -1,0 +1,123 @@
+#pager-container,
+#favorites-pagination {
+  margin-top: 32px;
+}
+
+.pager-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+  list-style: none;
+}
+
+/* Numbers container */
+.pager-numbers {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 12px;
+}
+
+/* Navigation links (first, prev, next, last) */
+.pager-btn {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #242424;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.pager-icon {
+  color: #242424;
+  transition: var(--transition);
+}
+
+.pager-icon.flip {
+  transform: rotate(180deg);
+}
+
+.pager-btn:hover:not(.disabled) {
+  background-color: #242424;
+  border-color: #242424;
+}
+
+.pager-btn:hover:not(.disabled) .pager-icon {
+  color: var(--color-white);
+}
+
+.pager-btn.disabled {
+  cursor: not-allowed;
+  border-color: rgba(36, 36, 36, 0.1);
+  pointer-events: none;
+}
+
+.pager-btn.disabled .pager-icon {
+  color: rgba(36, 36, 36, 0.65);
+}
+
+/* Page number links */
+.pager-number {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: rgba(36, 36, 36, 0.65);
+  cursor: pointer;
+  transition: var(--transition);
+  background: none;
+  border: none;
+  padding: 0;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Current page number */
+.pager-number.current {
+  border: 1px solid #242424;
+  border-radius: 50%;
+  cursor: default;
+  font-weight: 400;
+  color: #242424;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+}
+
+/* Hover effect for inactive numbers */
+.pager-number:not(.current):hover {
+  color: #242424;
+}
+
+/* Dots (ellipsis) */
+.pager-dots {
+  cursor: default;
+  color: rgba(36, 36, 36, 0.5);
+  pointer-events: none;
+  min-width: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+  background: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
