@@ -20,7 +20,7 @@ managing favorites.
 - Axios
 - modern-normalize
 
-## Структура проєкту
+## Project Structure
 
 ```
 src/
@@ -51,4 +51,4 @@ npm run preview
 
 ### Live page
 
-[text](https://taranenkoken.github.io/final-project-js/)
+[https://taranenkoken.github.io/final-project-js/](https://taranenkoken.github.io/final-project-js/)
