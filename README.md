@@ -49,6 +49,6 @@ npm run build
 npm run preview
 ```
 
-
 ### Live page
 
+[text](https://taranenkoken.github.io/final-project-js/)
