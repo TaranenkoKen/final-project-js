@@ -1,15 +1,15 @@
 .header {
   position: static;
-  z-index: var(--z-modal);
+  z-index: var(--z-sticky);
   background-color: var(--color-light);
+  padding: 20px 0;
 }
 
-.header > .wrapper {
+.header > .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 .logo-svg {
@@ -17,7 +17,6 @@
   height: 24px;
   width: 132px;
   color: var(--color-dark);
-  margin-top: 5px;
 }
 
 .navigation {

@@ -261,6 +261,7 @@ body:has(dialog[open]) {
 }
 
 .rating-star {
+  position: relative;
   cursor: pointer;
   color: var(--color-light-20);
   transition: color 0.15s ease;
@@ -268,10 +269,13 @@ body:has(dialog[open]) {
 
 .rating-star input {
   position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 1px;
   height: 1px;
   padding: 0;
-  margin: -1px;
+  margin: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
@@ -358,7 +362,6 @@ body:has(dialog[open]) {
   width: 100%;
   margin-top: 10px;
 }
-
 
 @media screen and (min-width: 768px) {
   .exercise-popup[open] {

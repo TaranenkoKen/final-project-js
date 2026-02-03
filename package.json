@@ -17,7 +17,9 @@
   "author": "Ivan Taranenko <kl991623@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.13.4",
     "modern-normalize": "^3.0.1",
+    "notyf": "^3.10.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
