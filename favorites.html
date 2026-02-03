@@ -39,9 +39,9 @@
     />
 
     <script type="module" crossorigin src="/final-project-js/assets/vendor-DinUI5z5.js"></script>
-    <script type="module" crossorigin src="/final-project-js/assets/main-BFWAOMRz.js"></script>
+    <script type="module" crossorigin src="/final-project-js/assets/main-DD8FbcoG.js"></script>
     <link rel="stylesheet" crossorigin href="/final-project-js/assets/vendor-CV79g7kv.css">
-    <link rel="stylesheet" crossorigin href="/final-project-js/assets/main-D7fdy7Tl.css">
+    <link rel="stylesheet" crossorigin href="/final-project-js/assets/main-BHkxTmJG.css">
   </head>
   <body>
     <svg style="display: none" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -232,7 +232,14 @@
       </li>
     </ul>
 
-    <button type="button" class="burger-btn" aria-label="Menu">
+    <button
+      type="button"
+      class="burger-btn"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      id="burger-btn"
+    >
       <svg class="burger-icon" width="32" height="32" aria-hidden="true">
         <use href="#icon-burger"></use>
       </svg>
@@ -243,7 +250,7 @@
 
     <main class="main favorites-page">
       <div class="filters-section">
-        <dialog class="mobile-menu" aria-label="Menu">
+        <dialog class="mobile-menu" id="mobile-menu" aria-label="Menu">
   <div class="mobile-menu-content">
     <button
       type="button"
@@ -346,7 +353,7 @@
               <header class="favorites-info-header">
                 <span class="favorites-info-icon" aria-hidden="true">
                   <svg width="20" height="20">
-                    <use href="#icon-info"></use>
+                    <use href="#icon-news"></use>
                   </svg>
                 </span>
                 <div class="favorites-info-content">

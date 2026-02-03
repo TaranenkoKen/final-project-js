@@ -39,8 +39,8 @@
     />
 
     <script type="module" crossorigin src="/final-project-js/assets/vendor-DinUI5z5.js"></script>
-    <script type="module" crossorigin src="/final-project-js/assets/main-BFWAOMRz.js"></script>
-    <link rel="stylesheet" crossorigin href="/final-project-js/assets/main-D7fdy7Tl.css">
+    <script type="module" crossorigin src="/final-project-js/assets/main-DD8FbcoG.js"></script>
+    <link rel="stylesheet" crossorigin href="/final-project-js/assets/main-BHkxTmJG.css">
     <link rel="stylesheet" crossorigin href="/final-project-js/assets/vendor-CV79g7kv.css">
   </head>
   <body>
@@ -232,7 +232,14 @@
       </li>
     </ul>
 
-    <button type="button" class="burger-btn" aria-label="Menu">
+    <button
+      type="button"
+      class="burger-btn"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      id="burger-btn"
+    >
       <svg class="burger-icon" width="32" height="32" aria-hidden="true">
         <use href="#icon-burger"></use>
       </svg>
@@ -242,7 +249,7 @@
 
 
     <main class="main">
-      <dialog class="mobile-menu" aria-label="Menu">
+      <dialog class="mobile-menu" id="mobile-menu" aria-label="Menu">
   <div class="mobile-menu-content">
     <button
       type="button"
@@ -376,6 +383,7 @@
   </div>
 </section>
 
+
       <section class="filters-section">
   <div class="container">
     <div class="filters-header">
@@ -489,7 +497,7 @@
     <source
       media="(min-width: 768px) and (max-width: 1440px)"
       type="image/jpeg"
-      srcset="/final-project-js/assets/sitebar_tab-CLgsV1FZ.jpg /img/sitebar_tab@2x.jpg 2x, /final-project-js/assets/sitebar_tab@3x-CBPPgqTm.jpg 3x"
+      srcset="/final-project-js/assets/sitebar_tab-CLgsV1FZ.jpg 1x, /final-project-js/assets/sitebar_tab@2x-BteMrhJH.jpg 2x, /final-project-js/assets/sitebar_tab@3x-CBPPgqTm.jpg 3x"
     />
 
     <source
