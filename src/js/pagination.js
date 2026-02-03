@@ -38,9 +38,9 @@ export const renderPagination = async (
       }
       const isActive = page === currentPage;
       if (isActive) {
-        return `<li><a href="#" class="pagination-number current" aria-current="page">${page}</a></li>`;
+        return `<li><a href="#" class="pager-number current" aria-current="page">${page}</a></li>`;
       }
-      return `<li><a href="#" class="pagination-number" data-page="${page}">${page}</a></li>`;
+      return `<li><a href="#" class="pager-number" data-page="${page}">${page}</a></li>`;
     })
     .join('');
 

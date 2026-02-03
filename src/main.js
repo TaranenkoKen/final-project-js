@@ -34,7 +34,6 @@ function setupSubscription() {
 document.addEventListener('DOMContentLoaded', () => {
   setActiveNav();
   setupSubscription();
-  setupHeaderScroll();
 
   // Initialize page-specific functionality based on elements present
   if (document.getElementById('exercises-container')) {

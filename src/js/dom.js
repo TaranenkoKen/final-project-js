@@ -80,7 +80,7 @@ export const renderCategories = async (categories, containerId) => {
     return;
   }
 
-  const template = await loadTemplate('category-card');
+  const template = await loadTemplate('category');
 
   const categoriesHtml = categories
     .map(cat => {

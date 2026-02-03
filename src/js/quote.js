@@ -1,3 +1,6 @@
+import { getQuote } from './exercises.js';
+import { renderQuote } from './dom.js';
+
 const STORAGE_KEYS = {
   FAVORITES: 'favoriteExercises',
   QUOTE: 'quote-of-the-day',
