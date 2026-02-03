@@ -51,4 +51,4 @@ npm run preview
 
 ### Live page
 
-[https://taranenkoken.github.io/final-project-js/](https://taranenkoken.github.io/final-project-js/)
+[Page](https://taranenkoken.github.io/final-project-js/)
